@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Indian Bank Visa Debit Card</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="scene">
+  <div class="card" id="card">
+
+    <!-- FRONT -->
+    <div class="card-face card-front">
+
+      <div class="top">
+        <span class="bank">INDIAN BANK</span>
+        <span class="visa">VISA</span>
+      </div>
+
+      <div class="chip-row">
+        <div class="chip"></div>
+        <div class="nfc">)))</div>
+      </div>
+
+      <div class="card-number" id="cardNumber">
+        4312&nbsp;8765&nbsp;9988&nbsp;2345
+      </div>
+
+      <div class="info">
+        <div>
+          <span>CARD HOLDER</span>
+          <p id="cardName">MANJAR ALAM</p>
+        </div>
+        <div>
+          <span>VALID THRU</span>
+          <p id="cardExpiry">12/30</p>
+        </div>
+      </div>
+
+      <!-- SIGNATURE (FIXED & INSIDE) -->
+      <div class="signature">
+        <span class="sign-label">AUTHORIZED SIGNATURE</span>
+        <div class="sign-box">
+          <span class="sign-text">Manjar Alam</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- BACK -->
+    <div class="card-face card-back">
+
+      <div class="black-strip"></div>
+
+      <div class="cvv-box">
+        CVV&nbsp;<strong id="cardCvv">456</strong>
+      </div>
+
+      <div class="address">
+       Indian Bank By Dilarpur, Manihari<br>
+        Katihar, Bihar – 854113
+      </div>
+
+      <div class="note">
+        This card is the property of Indian Bank.
+        If found, please return to nearest branch.
+      </div>
+
+      <div class="helpline">
+        Customer Care: 1800-425-00000
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
