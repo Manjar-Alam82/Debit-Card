@@ -2,10 +2,10 @@ const card = document.getElementById("card");
 
 /* CARD DATA – CHANGE HERE ONLY */
 const cardData = {
-  number: "4312 8765 9988 2345",
-  name: "MANJAR ALAM",
+  number: "4312 8765 7788 2345",
+  name: "MD SAHIL",
   expiry: "12/30",
-  cvv: "456",
+  cvv: "496",
 };
 
 document.getElementById("cardNumber").innerHTML =
